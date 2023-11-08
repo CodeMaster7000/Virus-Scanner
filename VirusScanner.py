@@ -6,8 +6,8 @@ from pprint import pprint
 
 configuration = cloudmersive_virus_api_client.Configuration()
 configuration.api_key['Apikey'] = 'YOUR_API_KEY'
-# Uncomment to setup prefix (e.g. Bearer) for API key:
-# configuration.api_key_prefix['Apikey'] = 'Bearer'
+# Uncomment to setup prefix for API key:
+# configuration.api_key_prefix['Apikey'] = 'XXX'
 
 api_instance = cloudmersive_virus_api_client.ScanApi(cloudmersive_virus_api_client.ApiClient(configuration))
 input_file = '/path/to/file'
